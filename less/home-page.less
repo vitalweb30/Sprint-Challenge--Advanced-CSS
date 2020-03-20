@@ -73,3 +73,28 @@
     }
   }
 }// home
+
+// button styling
+.btn-class {
+  padding: 12px 48px;
+  border-radius: 12px;
+  background-color: #663dff;
+background-image: linear-gradient(319deg, #663dff 0%, #aa00ff 37%, #cc4499 100%);
+  color: white;
+  cursor: pointer;
+// button hover styling
+  &:hover {
+	
+  background-color: #c73e1d;
+background-image: linear-gradient(315deg, #c73e1d 0%, #a23b72 37%, #2e86ab 100%);
+
+  
+  }
+}
+
+
+@phone(@max-width) {
+  img, .launch {
+    display: none;
+  }
+}
